@@ -30,15 +30,16 @@ List any prerequisites or dependencies that need to be installed before getting 
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/your-username/your-repo.git
 ```
-1. Navigate to the project directory:
+
+2. Navigate to the project directory:
 
 ```bash
 cd your-repo
 ```
 
-Install dependencies using pnpm:
+3. Install dependencies using pnpm:
 
 ```bash
 pnpm install
