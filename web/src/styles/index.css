@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --syko: #3068D0;
+    --syko-secondary: #3068D01C;
+    --syko-secondary-bg: #3068D06E;
+    --syko-dark: #1D1D1D;
+    --syko-border: #393939;
+    --syko-white: #E5E5E5;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+::selection {
+    background: var(--syko);
+}
+
+.dev { border: 1px solid red; }
+.dev1 { border: 1px solid green; }
+.dev2 { border: 1px solid blue; }
+.dev3 { border: 1px solid yellow; }
+
+body, html, #app {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.key-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.key-tip {
+    background: var(--syko-dark);
+    color: var(--syko-white);
+    padding: 5px 12px 5px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid var(--syko-border);
+    border-bottom: 3px solid var(--syko);
+}
