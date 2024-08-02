@@ -1,6 +1,6 @@
 # vue-quasar-boilerplate
 
-This is a boilerplate for Vue.js and Quasar Framework for FiveM Projects.
+This is a boilerplate for Vue3.js using Vite, Quasar Framework, and Tailwind for FiveM projects.
 
 ## Table of Contents
 
